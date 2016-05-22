@@ -1,2 +1,2 @@
 # coursera-hcjs
-All the good things in Course 4
+Module 2 Coding Assignment folder: mod2_solution
