@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700,300,600);
+
+/* #CSS doc */
+
+/********** Testing! Remove before submitting **********/
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family:"Open Sans", Arial, sans-serif;
+  font-size:100%;
+  background-color: #F5F5DC;
+  width:100%;
+  color:#333;
+}
+
+section {
+
+  }
+
+article {
+ background-color: #DCDCC6;
+ position:relative; 
+ margin:.5em;
+ border:solid 1px #000;
+}
+
+h1 {
+  margin:20px auto 20px auto; font-weight:400; font-size:160%; text-align: center;
+}
+
+h2 {
+  border-left:solid 1px #000;
+  border-bottom:solid 1px #000;
+  color:#fff;
+  font-size:115%;
+  font-weight: 400;
+  position:absolute;
+  top:0; right:0;
+  width:30%;
+  text-align: center;
+}
+
+h2.chkn {
+  background-color: #d59898;
+  }
+
+h2.bf {
+    background-color: #c14543;
+}
+
+h2.shi {
+      background-color: #e5d198;
+      color:#2a7f4f;
+  }
+
+p {
+  margin-top:50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:20px;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight:300;
+  width: 90%;
+  font-size:90%;
+  line-height: 1.5em;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  float:left;
+    }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    /*width: 25%;*/
+    width: 30%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    /*width: 83.33%;*/
+    width: 85%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  }
+
+  .col-sm-12 {
+    width:95%;
+  }
+
+  /* webdesguy@gmail */
