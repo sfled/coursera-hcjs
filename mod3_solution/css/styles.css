@@ -1,0 +1,134 @@
+/* ********* ALL THE THINGS ********* */
+
+html {
+
+		min-width:320px;
+	}
+
+.container {
+		width:96%;
+		color:#333;
+	}
+
+	noscript {
+		text-align: center;
+		font-weight:bold;
+		margin:1em; padding:1em;
+		font-size:2em;
+	}
+
+
+/*		**** HEADER ****			*/
+
+#header-nav {
+
+}
+
+ul#nav-list li a {
+	color:#fff;
+	font-size: 1.2em;
+	font-weight: bold;
+
+}
+
+.header {
+	color:#333;
+}
+
+.navbar-default {
+  background-color: coral;
+  border-bottom: solid 1px #333;
+  height:80px;
+}
+
+	.navbar-brand {
+		padding:30px;
+		padding-top:5px;
+	}
+
+	#collapsible-nav {
+		visibility: hidden;
+	}
+
+	.navbar-brand h1 {
+		font-size:1.5em;
+		font-weight:bold;
+		color:#333399;
+	}
+
+/*		**** END-HEADER ****			*/
+
+
+/*		**** MAIN CONTENT ****			*/
+	main.container h2, main.container h3 {
+		font-size:1.5em;
+		font-weight:bold;
+		color:#333;
+		margin-top:0;
+	}
+
+	main.container h3 {
+		font-size:1.25em;
+		padding-top:5px;
+	}
+
+main.container section {
+	background-color: #9999ff;
+	padding:0 15px;
+	margin-top:20px;
+	z-index: -999;
+}
+
+
+/*		**** END MAIN CONTENT ****			*/
+
+/*   RESPONSIVE STUFF    */
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+		header.container {width:100%;}
+
+			#collapsible-nav {
+				visibility: visible;
+			}
+	
+			button.navbar-toggle {
+				border:solid 2px #333;
+			}
+		
+		.navbar-default {
+		  height:60px;
+		}
+		
+		.navbar-brand {
+				padding:0px;
+				margin-top:-5px;
+				font-size: 1.25em;
+			}
+
+		div#collapsible-nav {
+			border:none;
+			margin-left:-30px;
+			margin-right:-30px;
+		}
+
+		#nav-list {
+		
+		}
+
+		#nav-list li {
+			border-top:solid 1px orange;
+			background-color: #336699;
+			text-align: center;
+		}
+
+		#nav-list li:hover {
+			background-color: #6699cc;
+		}
+
+				#nav-list li a{
+					color:#fff;
+					font-weight: bold;
+				}
+		
+}
