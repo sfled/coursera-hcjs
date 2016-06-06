@@ -1,0 +1,9 @@
+body {
+	color:red;
+}
+
+p {
+  font-size: 130%;
+  background-color: gray;
+  color: white;
+}
