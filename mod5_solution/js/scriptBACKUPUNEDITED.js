@@ -58,11 +58,11 @@ var switchMenuToActive = function () {
     classes += " active";
     document.querySelector("#navMenuButton").className = classes;
   }
-};//HAS NOTHING TO DO W. CATEGORIES!!!!
+};
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
-      /******** CHECK LECTURE 57 script.js, idiot ****/
+/********************** CHECK LECTURE 57 script.js, idiot *************************/
 // TODO: STEP 0: Look over the code from 
 // *** start *** 
 // to 
@@ -84,7 +84,7 @@ showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl, 
   [...], // ***** <---- TODO: STEP 1: Substitute [...] ******
-  /********* CHECK LECTURE 61, line 17, 57 script.js line 10, IDIOT! *********/
+/************* CHECK LECTURE 57 script.js line 10, IDIOT! ***************************/
   true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
@@ -103,8 +103,8 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
       // var chosenCategoryShortName = ....
-/*****CHECK LESSON 61, scripts.js line 37 IDIOT!!   check the Loop on line 196   *************************/      
-/********************* CJHECK LESSON 63 line 159 buildMenuItemsViewHtml  **************************/
+      
+
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
       // Look through this code for an example of how to do use the insertProperty function.
@@ -147,9 +147,9 @@ dc.loadMenuCategories = function () {
     buildAndShowCategoriesHTML);
 };
 
-/*************    CLUE?!!? ***************/
+
 // Load the menu items view
-// 'categoryShort' is a short_name for a category 
+// 'categoryShort' is a short_name for a category
 dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
